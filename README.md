@@ -1,4 +1,4 @@
-# Intro_SciML
+# IntroScientificMachineLearning
 Short intro to scientific machine learning. I used PyTorch as a framework.
 Some equations are not rendered properly in the .ipynb version within github.
 
