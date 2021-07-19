@@ -24,7 +24,7 @@ We want to solve an ordinary differential equation with a given initial conditio
 In an initial step, we calculate an approximate solution given by a neuronal network:
 <br><br>
 <img src="https://latex.codecogs.com/svg.image?NN\left(t\right)&space;\approx&space;u\left(t\right)&space;\quad&space;\quad&space;(2)&space;&space;" title="NN\left(t\right) \approx u\left(t\right) \quad \quad (2) " />
-<br>
+<br><br>
 We can derive that <img src="https://latex.codecogs.com/svg.image?\inline&space;NN^\prime(t)&space;=&space;f(NN(t),t)&space;\;&space;\forall&space;\;t&space;" title="\inline NN^\prime(t) = f(NN(t),t) \; \forall \;t " />, if <img src="https://latex.codecogs.com/svg.image?\inline&space;NN(t)&space;" title="\inline NN(t) " /> is the actual solution. Hence, we can express our loss function in the following configuration:
 <br><br>
 <img src="https://latex.codecogs.com/svg.image?L(p)&space;=&space;\sum_i&space;\left(\frac{dNN(t_i)}{dt}&space;-&space;f\left(NN(t_i),&space;t_i\right)\right)^2&space;\quad&space;\quad&space;(3)&space;&space;" title="L(p) = \sum_i \left(\frac{dNN(t_i)}{dt} - f\left(NN(t_i), t_i\right)\right)^2 \quad \quad (3) " />
