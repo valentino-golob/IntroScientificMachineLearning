@@ -1,4 +1,4 @@
-[![Generic badge](https://img.shields.io/badge/code-Python-blue.svg)](code_golob.ipynb)
+[![Generic badge](https://img.shields.io/badge/code-Python-blue.svg)](Intro_Scientific_ML.ipynb)
 # IntroScientificMachineLearning
 Short intro to scientific machine learning. I used PyTorch as a framework.
 Some equations are not rendered properly in the .ipynb version within github.
